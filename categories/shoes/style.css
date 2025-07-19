@@ -1,0 +1,19 @@
+/* Shoes Category Specific Styles */
+
+/* Category-specific styling can be added here */
+/* This file is ready for the team member to customize */
+
+/* Example: Shoes category specific color scheme */
+.shoes-category-header {
+  background: linear-gradient(135deg, var(--deep-purple), var(--mint));
+  color: var(--white);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Example: Shoes product card enhancements */
+.shoes-product-card {
+  border-left: 4px solid var(--mint);
+}
+
+/* Add your custom styles below */
