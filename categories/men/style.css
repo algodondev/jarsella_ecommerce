@@ -1,0 +1,19 @@
+/* Men's Category Specific Styles */
+
+/* Category-specific styling can be added here */
+/* This file is ready for the team member to customize */
+
+/* Example: Men's category specific color scheme */
+.men-category-header {
+  background: linear-gradient(135deg, var(--deep-purple), var(--purple));
+  color: var(--white);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Example: Men's product card enhancements */
+.men-product-card {
+  border-left: 4px solid var(--purple);
+}
+
+/* Add your custom styles below */
