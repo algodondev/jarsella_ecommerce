@@ -1,0 +1,19 @@
+/* Kids Category Specific Styles */
+
+/* Category-specific styling can be added here */
+/* This file is ready for the team member to customize */
+
+/* Example: Kids category specific color scheme */
+.kids-category-header {
+  background: linear-gradient(135deg, var(--lime), var(--sky));
+  color: var(--deep-purple);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Example: Kids product card enhancements */
+.kids-product-card {
+  border-left: 4px solid var(--lime);
+}
+
+/* Add your custom styles below */
