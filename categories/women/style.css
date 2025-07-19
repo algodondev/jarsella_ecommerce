@@ -1,0 +1,19 @@
+/* Women's Category Specific Styles */
+
+/* Category-specific styling can be added here */
+/* This file is ready for the team member to customize */
+
+/* Example: Women's category specific color scheme */
+.women-category-header {
+  background: linear-gradient(135deg, var(--purple), var(--sky));
+  color: var(--white);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Example: Women's product card enhancements */
+.women-product-card {
+  border-left: 4px solid var(--sky);
+}
+
+/* Add your custom styles below */
