@@ -1,6 +1,6 @@
 # Jarsella E-Commerce Frontend
 
-A responsive vanilla HTML, CSS, and JavaScript e-commerce frontend template designed for collaborative development.
+A responsive vanilla HTML, CSS, and JavaScript e-commerce frontend.
 
 ## Project Structure
 
@@ -17,10 +17,3 @@ Each team member can work independently in their assigned category folder:
 - `/categories/kids/`
 - `/categories/shoes/`
 - `/categories/jewelry/`
-
-## Tech Stack
-
-- Vanilla HTML5
-- CSS3 (Flexbox + Grid)
-- Vanilla JavaScript
-- No frameworks or external dependencies
