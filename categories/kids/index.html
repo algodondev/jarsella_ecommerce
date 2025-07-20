@@ -3,76 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kids Collection - Jarsella e-commerce">
     <title>Kids Collection - Jarsella</title>
     <link rel="stylesheet" href="../../main.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header" role="banner">
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <a
-              href="../../index.html"
-              style="color: inherit; text-decoration: none"
-              >Jarsella</a
-            >
+            <a href="../../index.html" aria-label="Go to homepage">
+              Jarsella
+            </a>
           </div>
-          <nav class="nav">
+          <nav class="nav" role="navigation">
             <a href="../../index.html" class="nav-link">Home</a>
             <a href="../../views/products.html" class="nav-link">Products</a>
-            <a href="#" class="nav-link"
-              >Cart <span class="cart-counter">0</span></a
-            >
+            <a href="#" class="nav-link cart-link" aria-label="Shopping cart">
+              Cart <span class="cart-counter">0</span>
+            </a>
           </nav>
         </div>
       </div>
     </header>
 
     <!-- Main Content -->
-    <main class="main">
+    <main class="main" role="main">
       <div class="container">
         <!-- Page Header -->
-        <div class="section-header">
+        <div class="section-header kids-category-header">
           <h1>Kids Collection</h1>
           <p>Fun and comfortable fashion for children</p>
+          <button id="change-theme" class="btn theme-btn">Change Theme Color</button>
         </div>
 
         <!-- Category Navigation -->
-        <div class="category-nav">
+        <nav class="category-nav" aria-label="Product categories">
           <a href="../men/" class="category-link">Men</a>
           <a href="../women/" class="category-link">Women</a>
-          <a href="../kids/" class="category-link active">Kids</a>
+          <a href="../kids/" class="category-link active" aria-current="page">Kids</a>
           <a href="../shoes/" class="category-link">Shoes</a>
           <a href="../jewelry/" class="category-link">Jewelry</a>
+        </nav>
+
+        <!-- Filter Controls -->
+        <div class="filter-controls">
+          <label for="price-filter" class="sr-only">Filter by price</label>
+          <select id="price-filter" class="filter-select" aria-label="Filter by price range">
+            <option value="all">All Prices</option>
+            <option value="under20">Under $20</option>
+            <option value="20to40">$20 to $40</option>
+            <option value="over40">Over $40</option>
+          </select>
+          <button id="sort-asc" class="btn sort-btn">Sort Price (Low to High)</button>
+          <button id="sort-desc" class="btn sort-btn">Sort Price (High to Low)</button>
         </div>
 
         <!-- Kids Products Grid -->
-        <div class="product-grid">
-          <!-- Insert your kids category-specific products here -->
-          <!-- Example product card structure: -->
-          <div class="product-card">
-            <img
-              src="../../assets/placeholder.svg"
-              alt="Kids Product 1"
-              class="product-image"
-            />
-            <div class="product-info">
-              <h3 class="product-title">Kids Product Name</h3>
-              <p class="product-price">$XX.XX</p>
-              <a href="../../views/product.html" class="btn">View Details</a>
-            </div>
-          </div>
-
-          <!-- Add more product cards as needed -->
-          <!-- Copy the structure above and customize for each product -->
+        <div class="product-grid" id="product-grid" role="region" aria-live="polite">
+          <!-- Products will be loaded dynamically via JavaScript -->
         </div>
+
+        <!-- Dynamic Content Section -->
+        <section class="dynamic-content" aria-labelledby="offers-heading">
+          <h2 id="offers-heading">Special Offers</h2>
+          <div id="special-offers" role="region" aria-live="polite"></div>
+          <button id="add-offer" class="btn">Add New Offer</button>
+        </section>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <div class="container">
         <div class="footer-content">
           <div class="footer-section">
@@ -99,26 +103,8 @@
     </footer>
 
     <!-- Scroll to Top Button -->
-    <button
-      class="scroll-to-top"
-      style="
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background: var(--purple);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-      "
-    >
-      ↑
-    </button>
+    <button class="scroll-to-top" aria-label="Scroll to top">↑</button>
 
-    <script src="../../main.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
