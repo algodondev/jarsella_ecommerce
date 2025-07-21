@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jewelry Collection - Jarsella</title>
-    <link rel="stylesheet" href="../../main.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <div class="header-content">
-          <div class="logo">
-            <a
-              href="../../index.html"
-              style="color: inherit; text-decoration: none"
-              >Jarsella</a
-            >
-          </div>
-          <nav class="nav">
-            <a href="../../index.html" class="nav-link">Home</a>
-            <a href="../../views/products.html" class="nav-link">Products</a>
-            <a href="#" class="nav-link"
-              >Cart <span class="cart-counter">0</span></a
-            >
-          </nav>
+<!-- Jewelry Page - Andrea -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jewelry Collection - Jarsella</title>
+  <link rel="stylesheet" href="../../main.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="../../index.html" style="color: inherit; text-decoration: none">Jarsella</a>
         </div>
+        <nav class="nav">
+          <a href="../../index.html" class="nav-link">Home</a>
+          <a href="../../views/products.html" class="nav-link">Products</a>
+          <a href="#" class="nav-link">Cart <span class="cart-counter">0</span></a>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- Main Content -->
-    <main class="main">
-      <div class="container">
-        <!-- Page Header -->
-        <div class="section-header">
-          <h1>Jewelry Collection</h1>
-          <p>Elegant accessories to complete your look</p>
-        </div>
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+      <!-- Page Header -->
+      <div class="section-header jewelry-category-header">
+        <h1>Jewelry Collection</h1>
+        <p>Elegant accessories to complete your look</p>
+      </div>
+      <div class="background-toggle">
+        <button id="toggleBackground" class="btn">Toggle Background</button>
+      </div>
 
-        <!-- Category Navigation -->
+      <!-- Category Navigation -->
+      <div class="category-nav-wrapper">
         <div class="category-nav">
           <a href="../men/" class="category-link">Men</a>
           <a href="../women/" class="category-link">Women</a>
@@ -48,77 +49,147 @@
           <a href="../jewelry/" class="category-link active">Jewelry</a>
         </div>
 
-        <!-- Jewelry Products Grid -->
-        <div class="product-grid">
-          <!-- Insert your jewelry category-specific products here -->
-          <!-- Example product card structure: -->
-          <div class="product-card">
-            <img
-              src="../../assets/placeholder.svg"
-              alt="Jewelry Product 1"
-              class="product-image"
-            />
-            <div class="product-info">
-              <h3 class="product-title">Jewelry Product Name</h3>
-              <p class="product-price">$XX.XX</p>
+        <div class="sort-dropdown"> <!-- Menú de clasificacion-->
+          <label for="sortPrice">Sort by:</label>
+          <select id="sortPrice">
+            <option value="asc">Price: Low to High</option>
+            <option value="desc">Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Jewelry Products Grid -->
+      <div class="product-grid">
+        <!-- Insert your jewelry category-specific products here -->
+        <!-- Example product card structure: -->
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/heartChain.jpg" alt="Jewelry Product 1" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Silver heart chain</h3>
+            <p class="product-price">$27.60</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
               <a href="../../views/product.html" class="btn">View Details</a>
             </div>
           </div>
-
-          <!-- Add more product cards as needed -->
-          <!-- Copy the structure above and customize for each product -->
         </div>
-      </div>
-    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-section">
-            <h3>Jarsella</h3>
-            <p>Premium fashion and lifestyle products</p>
-          </div>
-          <div class="footer-section">
-            <h4>Quick Links</h4>
-            <a href="../../index.html">Home</a>
-            <a href="../../views/products.html">Products</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </div>
-          <div class="footer-section">
-            <h4>Categories</h4>
-            <a href="../men/">Men</a>
-            <a href="../women/">Women</a>
-            <a href="../kids/">Kids</a>
-            <a href="../shoes/">Shoes</a>
-            <a href="../jewelry/">Jewelry</a>
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/goldenEarrings.jpg" alt="Jewelry Product 2" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Pairs of gold earrings</h3>
+            <p class="product-price">$12.98</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
+              <a href="../../views/product.html" class="btn">View Details</a>
+            </div>
           </div>
         </div>
+
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/silverNecklace.jpg" alt="Jewelry Product 3" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Silver Necklace</h3>
+            <p class="product-price">$18.75</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
+              <a href="../../views/product.html" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/goldBracelet.jpg" alt="Jewelry Product 4" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Gold initial bracelets</h3>
+            <p class="product-price">$9.99</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
+              <a href="../../views/product.html" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/ankletsPearls.jpg" alt="Jewelry Product 5" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Anklets with small pearls</h3>
+            <p class="product-price">$12.35</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
+              <a href="../../views/product.html" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/judeSteel.jpg" alt="Jewelry Product 6" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Jude stainless steel</h3>
+            <p class="product-price">$9.99</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
+              <a href="../../views/product.html" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/crystalJewelry.jpg" alt="Jewelry Product 7" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Crystal jewelry set</h3>
+            <p class="product-price">$13.69</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
+              <a href="../../views/product.html" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="jewelry-product-card">
+          <img src="../jewelry/assets/senteriaSilver.jpg" alt="Jewelry Product 8" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-title">Senteria Silver Earrings</h3>
+            <p class="product-price">$8.99</p>
+            <div class="button-group">
+              <button class="btn">Add to Cart</button>
+              <a href="../../views/product.html" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </main>
 
-    <!-- Scroll to Top Button -->
-    <button
-      class="scroll-to-top"
-      style="
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background: var(--purple);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-      "
-    >
-      ↑
-    </button>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Jarsella</h3>
+          <p>Premium fashion and lifestyle products</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <a href="../../index.html">Home</a>
+          <a href="../../views/products.html">Products</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-section">
+          <h4>Categories</h4>
+          <a href="../men/">Men</a>
+          <a href="../women/">Women</a>
+          <a href="../kids/">Kids</a>
+          <a href="../shoes/">Shoes</a>
+          <a href="../jewelry/">Jewelry</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="../../main.js"></script>
-    <script src="script.js"></script>
-  </body>
+  <script src="../../main.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
