@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juicy Tweed Jacket Twee - Jarsella</title>
+    <link rel="stylesheet" href="../../../main.css" />
+    <link rel="stylesheet" href="styles/product.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <a
+              href="../../index.html"
+              style="color: inherit; text-decoration: none"
+              >Jarsella</a
+            >
+          </div>
+          <nav class="nav">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="products.html" class="nav-link">Products</a>
+            <a href="#" class="nav-link"
+              >Cart <span class="cart-counter">0</span></a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+          <a href="../index.html">Home</a> &gt;
+          <a href="products.html">Products</a> &gt;
+          <span>Juicy Tweed Jacket Twee</span>
+        </nav>
+
+        <!-- Product Detail -->
+        <div class="product-detail">
+          <!-- Product Images -->
+          <div class="product-images">
+            <div class="main-image">
+              <img
+                src="https://i.ibb.co/MxCJ457r/479f3e886b399d18c618d11607aef2b6.png"
+                alt="Juicy Tweed Jacket Twee"
+                class="product-image-large"
+              />
+            </div>
+            <div class="thumbnail-images">
+              <img
+                src="https://i.ibb.co/MxCJ457r/479f3e886b399d18c618d11607aef2b6.png"
+                alt="Thumbnail 1"
+                class="thumbnail active"
+              />
+              <img
+                src="https://i.ibb.co/mrWY5G2w/0dc3355bb47761b4515f705c19b17a50.png"
+                alt="Thumbnail 2"
+                class="thumbnail active"
+              />
+              <img
+                src="https://i.ibb.co/ZrcZcVZ/21b7e1359ff6e8104db12f877ef2f2e1.png"
+                alt="Thumbnail 3"
+                class="thumbnail"
+              />
+              <img
+                src="https://i.ibb.co/995Pv3Wh/d0d3df20e2b5e44846ba0226460dbbcc.png"
+                alt="Thumbnail 4"
+                class="thumbnail"
+              />
+              <img
+                src="https://i.ibb.co/93W1rczr/87e2ce477371a9e54431b2c7b91c2557.png"
+                alt="Thumbnail 5"
+                class="thumbnail"
+              />
+              <img
+                src="https://i.ibb.co/WN64Yj7Y/1f993f5ecbd788e69b911fb19e341679.png"
+                alt="Thumbnail 6"
+                class="thumbnail"
+              />
+              <img
+                src="https://i.ibb.co/jvHGk9Fw/2918dc7a5f7d9c01e2fd7ff137368510.png"
+                alt="Thumbnail 7"
+                class="thumbnail"
+              />
+            </div>
+          </div>
+
+          <!-- Product Info -->
+          <div class="product-info-detail">
+            <h1 class="product-title-large">Juicy Tweed Jacket Twee</h1>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-text">(4.9/5) - 099 reviews</span>
+            </div>
+            <div class="product-price-large">$74.09</div>
+            <div class="product-description">
+              <p>
+                TWEE brings the latest global fashion trends to one place with adorable graphic tees, blouses, 
+                skirts, and more. Best for students and those with young spirits, TWEE’s selection of ultra-trendy, 
+                stylish clothing goes beyond what the average K-fashion brand has to offer.
+              </p>
+              <ul class="product-features">
+                <li>Polyester 100%</li>
+                <li>Dry Clean, Hand Wash</li>
+                <li>One Size</li>
+              </ul>
+            </div>
+
+            <!-- Size Selection -->
+            <div class="size-selection">
+              <h3>Select Size</h3>
+              <div class="size-options">
+                <button class="size-btn" data-size="onSize">One Size</button>
+              </div>
+            </div>
+
+            <!-- Color Selection -->
+            <div class="color-selection">
+              <h3>Select Color</h3>
+              <div class="color-options">
+                <button
+                  class="color-btn active"
+                  data-color="beige"
+                  style="background-color: #F5F5DC"
+                ></button>
+                <button
+                  class="color-btn"
+                  data-color="sky blue"
+                  style="background-color: #87CEEB; border: 1px solid #ccc"
+                ></button>
+                <button
+                  class="color-btn"
+                  data-color="pink"
+                  style="background-color: #FFC0CB "
+                ></button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="quantity-selection">
+              <h3>Quantity</h3>
+              <div class="quantity-controls">
+                <button class="qty-btn" id="decrease-qty">-</button>
+                <input
+                  type="number"
+                  value="1"
+                  min="1"
+                  max="10"
+                  class="qty-input"
+                  id="quantity"
+                />
+                <button class="qty-btn" id="increase-qty">+</button>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="product-actions">
+              <button class="btn btn-primary add-to-cart">Add to Cart</button>
+              <button class="btn btn-secondary">Add to Wishlist</button>
+            </div>
+
+            <!-- Product Meta -->
+            <div class="product-meta">
+              <div class="meta-item"><strong>SKU:</strong>JTJ-010</div>
+              <div class="meta-item">
+                <strong>Category:</strong>
+                <a href="../categories/women/">Women's Clothing</a>
+              </div>
+              <div class="meta-item">
+                <strong>Availability:</strong>
+                <span class="in-stock">In Stock</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Related Products -->
+        <section class="related-products">
+          <h2>Related Products</h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <img
+                src="https://i.ibb.co/bg2Cc7nx/8a0ee5e915a29b5ada0e979af51aae5b.png"
+                alt="Related Product 1"
+                class="product-image"
+              />
+              <div class="product-info">
+                <h3 class="product-title">Hotch Corduroy Pleats Skirt
+                <p class="product-price">$30.24</p>
+                <a href="product.html" class="btn">View Details</a>
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="https://i.ibb.co/kgRLVjvT/207685708-1-softyell5ow.png"
+                alt="Related Product 2"
+                class="product-image"
+              />
+              <div class="product-info">
+                <h3 class="product-title">Kaiia embroidered logo hoodie co-ord</h3>
+                <p class="product-price">$59.00</p>
+                <a href="product.html" class="btn">View Details</a>
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="https://i.ibb.co/hJbgzJWh/936d6eebe6ba113b8f71b687f4a8be4596119c49.jpg"
+                alt="Related Product 3"
+                class="product-image"
+              />
+              <div class="product-info">
+                <h3 class="product-title">Unisex Hanbok Chosun Pants Black</h3>
+                <p class="product-price">$198.54</p>
+                <a href="product01.html" class="btn">View Details</a>
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="https://i.ibb.co/1J82Vf50/GUEST-f663780d-089f-4ac2-9ec1-e0.png"
+                alt="Related Product 4"
+                class="product-image"
+              />
+              <div class="product-info">
+                <h3 class="product-title">Women's Everyday High-Rise Wide Leg Jeans - Universal Thread</h3>
+                <p class="product-price">$28.00</p>
+                <a href="product.html" class="btn">View Details</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Jarsella</h3>
+            <p>Premium fashion and lifestyle products</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="../index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer-section">
+            <h4>Categories</h4>
+            <a href="../categories/men/">Men</a>
+            <a href="../categories/women/">Women</a>
+            <a href="../categories/kids/">Kids</a>
+            <a href="../categories/shoes/">Shoes</a>
+            <a href="../categories/jewelry/">Jewelry</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button
+      class="scroll-to-top"
+      style="
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: var(--purple);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      "
+    >
+      ↑
+    </button>
+
+    <script src="../../../main.js"></script>
+    <script src="js/product.js"></script>
+  </body>
+</html>

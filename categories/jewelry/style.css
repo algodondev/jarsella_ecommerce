@@ -1,4 +1,4 @@
-/* Jewelry Category Specific Styles */
+/* Jewelry Category Specific Styles - Andrea */
 
 /* Category-specific styling can be added here */
 /* This file is ready for the team member to customize */
@@ -17,3 +17,112 @@
 }
 
 /* Add your custom styles below */
+.background-toggle {
+  margin: 1rem 0;
+}
+
+body.bg-active {
+  background-color: var(--black);
+  /* Color para cambiar en JS*/
+}
+
+.category-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.sort-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+
+}
+
+#sortPrice {
+  padding: 0.4rem;
+  background-color: var(--purple);
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  border: none;
+
+}
+
+
+.category-nav {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.category-link {
+  text-decoration: none;
+  color: var(--deep-purple);
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.category-link:hover {
+  background-color: rgba(106, 90, 205, 0.1);
+}
+
+.category-link.active {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.btn a {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.btn:hover {
+  background-color: var(--deep-purple);
+}
+
+/* Product floating message añadido */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
