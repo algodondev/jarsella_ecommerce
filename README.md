@@ -12,8 +12,9 @@ A responsive vanilla HTML, CSS, and JavaScript e-commerce frontend.
 
 Each team member can work independently in their assigned category folder:
 
-- `/categories/men/`
-- `/categories/women/`
-- `/categories/kids/`
-- `/categories/shoes/`
-- `/categories/jewelry/`
+- `Landing page, and project structure : Diego Arévalo`
+- `/categories/men/: Reynaldo Henriquez`
+- `/categories/women/: Claudia Linares`
+- `/categories/kids/: Jonatan Guevara`
+- `/categories/shoes/ Monica Iglesias`
+- `/categories/jewelry/ Andrea Raymundo`
