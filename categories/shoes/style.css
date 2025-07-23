@@ -1,9 +1,4 @@
-/* Shoes Category Specific Styles */
 
-/* Category-specific styling can be added here */
-/* This file is ready for the team member to customize */
-
-/* Example: Shoes category specific color scheme */
 .shoes-category-header {
   background: linear-gradient(135deg, var(--deep-purple), var(--mint));
   color: var(--white);
@@ -11,9 +6,243 @@
   margin-bottom: 2rem;
 }
 
-/* Example: Shoes product card enhancements */
-.shoes-product-card {
-  border-left: 4px solid var(--mint);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Add your custom styles below */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #eee;
+}
+
+.filter-btn.active {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure all cards have equal height */
+}
+
+.product-image-container {
+    height: 200px; /* Fixed height for image container */
+    overflow: hidden; /* Hide any image overflow */
+    display: flex;
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    background: #f5f5f5; /* Fallback background if image doesn't load */
+}
+
+.product-image {
+    width: 100%;
+ 
+    max-height: 100%;
+    object-fit: contain; /* Ensures image fits while maintaining aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.product-info {
+    padding: 15px;
+    flex-grow: 1; /* Makes info section fill remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 40px; /* Fixed height for name area */
+}
+
+.product-price {
+    font-weight: bold;
+    color: #e63946;
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.details-btn {
+    margin-top: auto; /* Pushes button to bottom */
+        margin-bottom: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-carousel {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel-container {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.carousel-btn.prev {
+    left: 15px;
+}
+
+.carousel-btn.next {
+    right: 15px;
+}
+
+.product-info {
+    padding: 0 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+    margin: 10px 0;
+}
+
+.description {
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (min-width: 768px) {
+    .modal-body {
+        flex-direction: row;
+    }
+    
+    .image-carousel {
+        width: 60%;
+    }
+    
+    .product-info {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .products-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .image-carousel {
+        height: 250px;
+    }
+}

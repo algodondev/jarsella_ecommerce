@@ -1,0 +1,294 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike ReactX Rejuven8",
+      "price": 60.00,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/884bd67c-4fcc-4656-b458-391219ba1e98/NIKE+REACTX+REJUVEN8+SLIDE.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6ec6ee5a-f7df-4dcf-8b79-a16b13cbd9ba/NIKE+REACTX+REJUVEN8+SLIDE.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/12b2250c-93ac-4339-aa71-de232706c654/NIKE+REACTX+REJUVEN8+SLIDE.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6760256b-f991-4da1-9cac-54133110ab7b/NIKE+REACTX+REJUVEN8+SLIDE.png"
+      ],
+      "description": "Dale un descanso a tus pies. Hechas con espuma ReactX Foam suave y responsiva, las Rejuven8 utilizan algunas de nuestras mejores tecnologías para crear chanclas de recuperación que te encantará usar."
+    },
+    {
+      "id": 2,
+      "name": "Nike Air VaporMax Plus",
+      "price": 220.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/36b61123-6dc2-49b4-a00e-b8d38ded2dbc/AIR+VAPORMAX+PLUS.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fbc0c83c-054f-41e9-a085-3c504652b638/AIR+VAPORMAX+PLUS.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9fbca6fa-9898-4b0f-925c-f1f3d6f61ed2/AIR+VAPORMAX+PLUS.png"
+      ],
+      "description": "El Nike Air VaporMax Plus mira hacia el pasado para impulsarte al futuro. En un claro guiño a los Air Max Plus lanzados en 1998 con una estructura flotante, una parte superior acolchada y un logotipo en el talón, estos tenis incorporan la revolucionaria tecnología VaporMax Air para aumentar la comodidad y crear un look moderno."
+    },
+    {
+      "id": 3,
+      "name": "Nike Total 90 Premium",
+      "price": 149.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b16100b4-83d8-44ee-ba27-40abf9580136/TOTAL+90+PRM.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7c33245-dcb0-4c01-983e-2196148563d9/TOTAL+90+PRM.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5023cfe1-13e0-425c-95e8-45031f31fbb3/TOTAL+90+PRM.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b9e72c5-0cae-4042-a332-67b5701814a4/TOTAL+90+PRM.png"
+      ],
+      "description": "Auténtico estilo de fútbol, ahora para el día a día. Los Total 90 están de regreso ofreciendo el estilo retro de los años 2000 con su parte superior acolchada y agujetas asimétricas originales. Cambiamos la suela con tachones por una suela de goma plana, ideal para la calle y trajimos de vuelta una paleta de colores de herencia para usarlos como quieras."
+    },
+    {
+      "id": 4,
+      "name": "Nike Pegasus Premium LV8",
+      "price": 119.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c1760dbb-2d71-4ca4-b56f-080d54a0ab3a/NIKE+PEGASUS+PREMIUM+LV8.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a2ea9d82-7fe1-434d-87c1-80779c9f05c2/NIKE+PEGASUS+PREMIUM+LV8.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6866d1ed-7074-4a99-b1f5-1d546235b732/NIKE+PEGASUS+PREMIUM+LV8.png"
+      ],
+      "description": "Los Pegasus Premium potencian amortiguación responsiva con tres capas apiladas de nuestras tecnologías más potentes para correr: espuma ZoomX Foam, una unidad Air Zoom esculpida y espuma ReactX Foam. Los Pegasus más responsivos de la historia: proporcionan un retorno de energía como ningún otro. Con una parte superior más ligera que el aire, disminuyen el peso y aumentan la transpirabilidad para que puedas volar más rápido."
+    },
+    {
+      "id": 5,
+      "name": "Men's Casual Loafers",
+      "price": 89.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ma16mujojp0ir0us0qu6/NIKE+FREE+RN+2018.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/gpgjrot8we2n1uzsvqhl/NIKE+FREE+RN+2018.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/tsgagp1zdltdh5keflb1/NIKE+FREE+RN+2018.png"
+      ],
+      "description": "Los Nike Free Run 2018 se actualizaron para brindar un ajuste aún más adaptable que antes. El material elástico en la parte superior se mueve con el pie, mientras que el patrón Tri-star en la suela se ajusta a cada paso para brindar una pisada que ofrece soporte y flexibilidad."
+    },
+    {
+      "id": 6,
+      "name": "Nike ACG Phassad",
+      "price": 69.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2fb847d2-6d33-4978-bf53-83284ac415d2/ACG+PHASSAD.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ca72f8bb-030a-495f-96d5-1e2656867eb7/ACG+PHASSAD.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/51221e8d-aa08-4a5b-a135-f9ca9215e3c8/ACG+PHASSAD.png"
+      ],
+      "description": "Estos trail runners de 2003 están de vuelta y listos para la próxima aventura. Un refuerzo inspirado en las solapas de las tiendas cubre las agujetas para ofrecer un look elegante. Y la resistente suela está lista para que salgas a correr, ya sea por la ciudad o los senderos."
+    },
+    {
+      "id": 7,
+      "name": "Nike Shox Ride 2",
+      "price": 109.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c854ef4-5c8d-42ae-8dfb-412616fdcdd0/NIKE+SHOX+RIDE+2.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/90929e4a-3739-4285-90b0-43d59ca97a83/NIKE+SHOX+RIDE+2.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/65b0d4ca-ca60-410b-8bcb-4ac3f4a46662/NIKE+SHOX+RIDE+2.png"
+      ],
+      "description": "Los Nike Shox Ride 2 son un clásico moderno y ofrecen una excelente amortiguación responsiva con cuatro columnas de soporte debajo del talón y tecnología Max Air en el antepié. Y la parte superior transpirable de tela y cuero auténtico es cómoda y duradera."
+    },
+    {
+      "id": 8,
+      "name": "Book 1 'Decade'",
+      "price": 99.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/af745cf0-3cdf-474b-af7f-db96fd531868/BOOK+1.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7fc9c201-b555-4f68-b386-55817c53e0d3/BOOK+1.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab62d4f0-d651-4c80-8033-7f6b97a3f726/BOOK+1.png"
+      ],
+      "description": "Clases magistrales de playoffs, 70 piezas, ganadores. Book se ha convertido en uno de los grandes del juego mientras viste con orgullo el naranja, púrpura y blanco. Estos Book 1 rinden homenaje a su trayectoria de una década en el Valle del Sol con una parte superior de cuero y un logotipo Swoosh color naranja. La entresuela envejecida simboliza los 10 años transcurridos desde su llegada, con su número 1 en el talón. Además, la etiqueta de la lengüeta, que está inspirada en su época como parte del Phoenix, completa el estilo vintage."
+    },
+    {
+      "id": 9,
+      "name": "Air Jordan 12 Retro 'White and University Blue'",
+      "price": 59.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/98c6ed9b-3418-41fd-b828-6c1a3068da88/AIR+JORDAN+12+RETRO.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b0e2b441-e041-4f27-bbbc-f448a809749c/AIR+JORDAN+12+RETRO.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aa9f5f15-048a-4494-9150-1bb1d2c46a47/AIR+JORDAN+12+RETRO.png"
+      ],
+      "description": "No hace falta que pidas aventón, el look ganador de MJ del 96 te llevará a donde necesites ir. Estos AJ12 son el regreso del célebre diseño de Tinker Hatfield, el primero en llevar la amortiguación Air Zoom a la línea exclusiva de Jordan. Los materiales premium le dan una renovación de temporada, mientras que las líneas de puntadas inspiradas en el amanecer en la parte superior te remontan al original. Este es el estilo que vence los límites del partido, perfeccionado."
+    },
+    {
+      "id": 10,
+      "name": "Air Jordan MVP 92 ",
+      "price": 139.99,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e83210ec-d81f-4927-b173-d3802e1c6418/JORDAN+MVP+92.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fbf500f3-e19a-431b-a900-4d26e856d927/JORDAN+MVP+92.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fbf500f3-e19a-431b-a900-4d26e856d927/JORDAN+MVP+92.pnghttps://example.com/shoes/men10-2.jpg"
+      ],
+      "description": "¿Cómo superas los AJ7? Reinventas el modelo con un estilo low. Comenzamos con la parte superior en capas y la icónica entresuela que convirtieron el diseño original en un clásico instantáneo. Luego agregamos detalles de tela y una zona del tobillo acolchada y de corte low para darle un look fresco y moderno."
+    },
+    {
+      "id": 11,
+      "name": "Hot Chick",
+      "price": 895.00,
+      "category": "women",
+      "image": "https://us.christianlouboutin.com/media/catalog/product/cache/c8e9b72c512eaa31cd76a11d9f425a9e/1/1/1190911bk01-1190911bk01-main_image-ecommerce-christianlouboutin-hotchick-1190911_bk01_1_1200x1200.jpg",
+      "images": [
+        "https://us.christianlouboutin.com/media/catalog/product/cache/c8e9b72c512eaa31cd76a11d9f425a9e/1/1/1190911bk01-1190911bk01-additional_2-ecommerce-christianlouboutin-hotchick-1190911_bk01_4_1200x1200.jpg",
+        "https://us.christianlouboutin.com/media/catalog/product/cache/c8e9b72c512eaa31cd76a11d9f425a9e/1/1/1190911bk01-1190911bk01-additional_1-ecommerce-christianlouboutin-hotchick-1190911_bk01_3_1200x1200.jpg"
+      ],
+      "description": "El Hot Chick es un icónico stiletto de Christian Louboutin con un arco pronunciado, un escote profundo y un vertiginoso tacón de 100 mm. Sus bordes festoneados cosidos a mano dejan entrever el pie. Con su encanto atemporal y sus líneas elegantes, esta silueta, que se mantiene vigente, es un imprescindible en el armario de cualquier fashionista contemporánea. Confeccionada en charol negro brillante, esta versión es imprescindible para un estilo chic durante todo el año. El inconfundible toque rojo adorna la suela de cada creación de Christian Louboutin. Es más que una suela, es una firma"
+    },
+    {
+      "id": 12,
+      "name": "Chara 70",
+      "price": 795,
+      "category": "women",
+      "image": "https://media.jimmychoo.com/image/upload/q_auto:best,f_auto,dpr_2.0,w_900,h_900,c_fit/USPROD_PRODUCT/images/original/CHARA70RSW_121684_SIDE_vg695.jpg",
+      "images": [
+        "https://media.jimmychoo.com/image/upload/q_auto:best,f_auto,dpr_2.0,w_900,h_900,c_fit/USPROD_PRODUCT/images/original/CHARA70RSW_121684_ANGLE_vg695.jpg",
+        "https://media.jimmychoo.com/image/upload/q_auto:best,f_auto,dpr_2.0,w_900,h_900,c_fit/USPROD_PRODUCT/images/original/CHARA70RSW_121684_OVER_vg695.jpg"
+      ],
+      "description": "La sandalia Chara es una prenda esencial y relajada con un toque artesanal. Diseñada con una llamativa parte superior de cuerda de crochet y una plantilla de cuero suave color canela, aporta textura natural y un toque elegante y natural a tus looks veraniegos de diario."
+    },
+    {
+      "id": 13,
+      "name": "Leo 65",
+      "price": 850.99,
+      "category": "women",
+      "image": "https://media.jimmychoo.com/image/upload/q_auto:best,f_auto,dpr_2.0,w_900,h_900,c_fit/USPROD_PRODUCT/images/original/1998LEO65SUE_025623_SIDE_vg713.jpg",
+      "images": [
+        "https://media.jimmychoo.com/image/upload/q_auto:best,f_auto,dpr_2.0,w_900,h_900,c_fit/USPROD_PRODUCT/images/original/1998LEO65SUE_025623_DETAIL_vg695.jpg",
+        "https://media.jimmychoo.com/image/upload/q_auto:best,f_auto,dpr_2.0,w_900,h_900,c_fit/USPROD_PRODUCT/images/original/1998LEO65SUE_025623_BACK_vg695.jpg"
+      ],
+      "description": "De diseño delicado y detallado, estas sandalias de ante invisibles son un básico moderno. Con una fina tira en el tobillo para mayor estructura y un tacón de 65 mm, las Leo realzan cualquier conjunto para el verano."
+    },
+    {
+      "id": 14,
+      "name": "Women's Hiking Shoes",
+      "price": 1119.99,
+      "category": "women",
+      "image": "https://saint-laurent.dam.kering.com/m/4aa1e213a3027525/Medium2-5576621TV1A1000_A.jpg?v=1",
+      "images": [
+        "https://saint-laurent.dam.kering.com/m/1576514df9cde57e/Medium2-5576621TV1A1000_D.jpg?v=1",
+        "https://saint-laurent.dam.kering.com/m/466250cffb3328c4/Medium2-5576621TV1A1000_C.jpg?v=1"
+      ],
+      "description": "Sandalias con tacón Cassandre y tira ajustable al tobillo. Disponibles en dos alturas de tacón."
+    },
+    {
+      "id": 15,
+      "name": "VENDOME slingback pumps in glazed leather",
+      "price": 1179.99,
+      "category": "women",
+      "image": "https://saint-laurent.dam.kering.com/m/7d2c1630fb186833/Medium2-840736AADAA2211_A.jpg?v=2",
+      "images": [
+        "https://saint-laurent.dam.kering.com/m/3d47b94cda6bcb94/Medium2-840736AADAA2211_B.jpg?v=2",
+        "https://saint-laurent.dam.kering.com/m/240cb93961e4349/Medium2-840736AADAA2211_C.jpg?v=2"
+      ],
+      "description": "Zapatos de salón con punta puntiaguda, tacón de aguja acampanado y tira elástica en la parte posterior."
+    },
+    {
+      "id": 16,
+      "name": "BABYLONE BRETEUIL slingback pumps in smooth leather",
+      "price": 1129.99,
+      "category": "women",
+      "image": "https://saint-laurent.dam.kering.com/m/99de563776844f1/Medium2-806685AAFAO6619_A.jpg?v=3",
+      "images": [
+        "https://saint-laurent.dam.kering.com/m/64ecf7e40ca6a86b/Medium2-806685AAFAO6619_B.jpg?v=2",
+        "https://saint-laurent.dam.kering.com/m/5294604289b3f50f/Medium2-806685AAFAO6619_C.jpg?v=1g"
+      ],
+      "description": "Zapatos de salón con tira trasera y punta alargada recortada, decorados con CASSANDRE."
+    },
+    {
+      "id": 17,
+      "name": "Nike G.T. Cut Academy",
+      "price": 69.99,
+      "category": "women",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/65643d81-eb3b-4475-80e3-46bae0306864/AIR+ZOOM+G.T.+CUT+ACADEMY.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b7cb8ce-35b0-41c6-9ee9-4a7961af6404/AIR+ZOOM+G.T.+CUT+ACADEMY.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/be2f6dd2-9e85-4b8e-8b8c-5d61721e0b63/AIR+ZOOM+G.T.+CUT+ACADEMY.png"
+      ],
+      "description": "Ya sea que juegues en el gimnasio, en el parque o en la entrada de tu casa, amárrate las agujetas de los nuevos G.T. Academia de corte. Diseñados para ayudarte a crear espacio para los saltos hacia atrás, los cortes puerta atrás y otras jugadas que cambian el partido, su adherente tracción multicancha te ayuda a detenerte en un instante y cambiar de marcha como quieras, dondequiera que juegues."
+    },
+    {
+      "id": 18,
+      "name": "Nike Future Field",
+      "price": 49.99,
+      "category": "kids",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c3cb81a5-28db-47f9-a8ca-4d4952f9d081/NIKE+FUTURE+FIELD.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d6968697-3981-48d8-950a-2b1d7daa0271/NIKE+FUTURE+FIELD.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5cf6332d-223e-40e5-8b9a-180083be79e2/NIKE+FUTURE+FIELD.png"
+      ],
+      "description": "Fútbol americano. Béisbol. Fútbol. O incluso correr por la cancha en el recreo. La mejor parte de los tenis Nike Future Field es que están diseñados para todo tipo de juegos de campo. Son duraderos para que pruebes todos los deportes que desees. Además, son versátiles y cómodos para usar fuera del campo, por lo que podrás ir por un helado después del partido y saborear tu premio preferido después de la práctica."
+    },
+    {
+      "id": 19,
+      "name": "Nike Sonic Fly",
+      "price": 39.99,
+      "category": "kids",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e75e3ce0-463a-460b-965e-4bf480af4655/SONIC+FLY+%28GS%29.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5d26ea41-6586-45f3-af48-4afa03de2ca1/SONIC+FLY+%28GS%29.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/240a5869-bdbe-4228-b9ee-e132791dd506/SONIC+FLY+%28GS%29.png"
+      ],
+      "description": "¿Por qué correr cuando puedes volar? Diseñados para los futuros campeones, los Nike Sonic Fly combinan un diseño ligero con espuma suave y elástica para añadir energía a cada pisada."
+    },
+    {
+      "id": 20,
+      "name": "Nike Dunk Low",
+      "price": 34.99,
+      "category": "kids",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/973b6c6f-5317-4fb8-a05b-e169c93d30aa/NIKE+DUNK+LOW+BP.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8fa4ca39-3e4d-422f-b464-9935d5dcebeb/NIKE+DUNK+LOW+BP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/df9b2a49-b6ad-4ba9-b8c2-a79733b6f758/NIKE+DUNK+LOW+BP.png"
+      ],
+      "description": "Tu pequeño brillará como un all-star con el Nike Dunk Low. El duradero cuero real y sintético resiste cualquier juego y la suela de goma les da a los pies de los pequeños la tracción necesaria para correr y saltar durante todo el año. Es hora de jugar."
+    },
+    {
+      "id": 21,
+      "name": "Luka .77 ",
+      "price": 54.99,
+      "category": "kids",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3d3419bb-6528-4d1a-9705-96d54ebbbf87/JORDAN+LUKA+.77+%28GS%29.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1d8b7d9b-fbe8-4f47-acc2-947251bd03a5/JORDAN+LUKA+.77+%28GS%29.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/17945a14-0e08-4cf4-a3da-8cfc6c170858/JORDAN+LUKA+.77+%28GS%29.png"
+      ],
+      "description": "Diseñados para ser tan resistentes como el estilo de juego de Luka, los Luka .77 están hechos para ayudarte a dominar las canchas al aire libre ásperas. La malla de alta resistencia a la abrasión y la suela de goma duradera resisten el cemento y el asfalto. La espuma de doble densidad responsiva mantiene la comodidad para prepararte para todo lo que te depare el partido."
+    },
+    {
+      "id": 22,
+      "name": "Luka 4 ",
+      "price": 29.99,
+      "category": "kids",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/eaaba0c7-1781-484a-92ed-92e0bbbea5df/JORDAN+LUKA+4+%28GS%29.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/836af827-ea37-49d0-90d9-bfb8c7f72d4a/JORDAN+LUKA+4+%28GS%29.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/722a27af-a639-4096-9976-6762cf504dd1/JORDAN+LUKA+4+%28GS%29.png"
+      ],
+      "description": "Luka Dončić juega sin remordimientos. Lanza el tiro de la victoria sin derramar ni una gota de sudor, desarmando a la defensa y nunca se siente mal por hacerlo. Entonces, ¿qué tipo de tenis diseñas para alguien así? Tienen que ser cómodos y tener un soporte firme, ideales para dar pasos hacia atrás, hacer eurosteps y jugar bully ball en el poste."
+    },
+    {
+      "id": 23,
+      "name": "Nike Jr. Mercurial Vapor 16 Academy",
+      "price": 59.99,
+      "category": "kids",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4ecaf5a8-6284-4402-8365-23a93bc92a8d/JR+ZOOM+VAPOR+16+ACADEMY+FG%2FMG.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/03e191dc-1087-45f5-99e0-fb528cc15647/JR+ZOOM+VAPOR+16+ACADEMY+FG%2FMG.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/61a0b726-25a0-47c9-999c-8a1e99c57063/JR+ZOOM+VAPOR+16+ACADEMY+FG%2FMG.png"
+      ],
+      "description": "¿Quieres llevar tu velocidad al siguiente nivel? Confeccionamos estos tacos Academy con una unidad Air Zoom mejorada en el talón. Te dan la propulsión necesaria para abrirte paso a través de la línea de fondo. El resultado son los Mercurial más responsivos que hemos creado hasta la fecha, para que puedas impulsar tu velocidad y mandar el balón al fondo de la red."
+    },
+    {
+      "id": 24,
+      "name": "Nike Jr. Phantom 6 High Academy",
+      "price": 44.99,
+      "category": "kids",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9f2e752-7e39-42b6-969c-80b9876522e9/JR+PHANTOM+6+HIGH+ACAD+FG%2FMG.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/47e5d595-acf2-43c2-9f94-a8b68af287f3/JR+PHANTOM+6+HIGH+ACAD+FG%2FMG.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0028479a-22bd-4467-8a00-d40615b7cc5d/JR+PHANTOM+6+HIGH+ACAD+FG%2FMG.png"
+      ],
+      "description": "Aumenta tu precisión con los Phantom 6 Academy. Potencia tu precisión con una zona de contacto NikeSkin, ubicada donde más la necesitas para lograr tiros precisos. La textura adherente te ayuda a aprovechar las oportunidades de gol al mejorar el contacto del pie con el balón."
+    }
+  ]
+}
